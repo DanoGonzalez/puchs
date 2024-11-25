@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.puchs" />
+                  <option name="mobileSdkAppId" value="1:718540578797:android:c102078b6c23a1d23f51e4" />
+                  <option name="projectId" value="puchs-6c662" />
+                  <option name="projectNumber" value="718540578797" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
