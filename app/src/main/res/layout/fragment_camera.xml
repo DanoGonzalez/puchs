@@ -18,7 +18,7 @@
          android:id="@+id/etxt_description"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:hint="Description"
+         android:hint="Descripción"
          android:layout_marginTop="16dp"/>
 
      <Button
@@ -26,6 +26,6 @@
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_marginTop="16dp"
-         android:text="upload photo"/>
+         android:text="Subir foto"/>
 
  </LinearLayout>

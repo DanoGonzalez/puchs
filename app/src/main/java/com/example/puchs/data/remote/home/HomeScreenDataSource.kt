@@ -10,7 +10,7 @@ class HomeScreenDataSource {
 
     suspend fun getLatestPosts(): Result<List<Post>> {
         val postList = mutableListOf<Post>()
-        val querySnapshot = FirebaseFirestore.getInstance().collection("posts").get().await()
+        val querySnapshot = FirebaseFirestore.getInstance().collection("post").get().await()
         for(post in querySnapshot.documents){
             post.toObject(Post::class.java)?.let { fbPost ->
                 fbPost.apply { created_at = post.getTimestamp("created_at", DocumentSnapshot.ServerTimestampBehavior.ESTIMATE)?.toDate() }

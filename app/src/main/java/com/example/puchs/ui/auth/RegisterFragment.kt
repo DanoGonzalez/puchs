@@ -37,14 +37,14 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
             val email = binding.editTextEmail.text.toString().trim()
 
             if (validateCredentials(password, confirmPassword, username, email)) return@setOnClickListener
-            createUser(username,password,email)
+            createUser(password,email)
 
             Log.d("signUpData", "data: $username $password $confirmPassword $email ")
         }
     }
 
-    private fun createUser(username: String, password: String, email: String) {
-        viewModel.signUp(email,password,username).observe(viewLifecycleOwner, Observer { result ->
+    private fun createUser(password: String, email: String) {
+        viewModel.signUp(email,password).observe(viewLifecycleOwner, Observer { result ->
             when(result) {
                 is Result.Loading -> {
                     binding.progressBar.visibility = View.VISIBLE

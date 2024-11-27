@@ -20,7 +20,7 @@ class CameraDataSource {
         val downloadUrl = imageRef.putBytes(baos.toByteArray()).await().storage.downloadUrl.await().toString()
         user?.let {
             it.displayName?.let { displayName ->
-                FirebaseFirestore.getInstance().collection("posts").add(Post(
+                FirebaseFirestore.getInstance().collection("post").add(Post(
                     profile_name = displayName,
                     profile_picture = it.photoUrl.toString(),
                     post_image = downloadUrl,
