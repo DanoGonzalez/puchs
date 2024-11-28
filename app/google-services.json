@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "718540578797",
-    "project_id": "puchs-6c662",
-    "storage_bucket": "puchs-6c662.firebasestorage.app"
+    "project_number": "849983064597",
+    "project_id": "puchs-2bf5e",
+    "storage_bucket": "puchs-2bf5e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:718540578797:android:c102078b6c23a1d23f51e4",
+        "mobilesdk_app_id": "1:849983064597:android:6736572932cb88425adc1c",
         "android_client_info": {
           "package_name": "com.example.puchs"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "718540578797-m0nk3lm4dnj6kt0q9uv4s29v7uubb73j.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAoRl0YzITJJNF-qz5DuykejaYEeJgEVRk"
+          "current_key": "AIzaSyBifLIhTwkZ9QSGqihh90Feuz6lWPBsmLE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "718540578797-m0nk3lm4dnj6kt0q9uv4s29v7uubb73j.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
